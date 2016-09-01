@@ -1,0 +1,35 @@
+<resources>
+    <!--Strings for the main page-->
+    <string name="app_name">Tasky...</string>
+    <string name="welcomeMessage">TASKY.</string>
+    <string name="mainButton">Add new Task</string>
+
+
+    <!--Strings for the form-->
+    <string name="welcomeMessageForm">Please enter a new Task</string>
+    <string name="titleBox">Title:</string>
+    <string name="descriptionBox">Description:</string>
+    <string name="urgencyBox">Urgency:</string>
+    <string name="titleHint">eg go shopping...</string>
+    <string name="descriptionHint">eg milk,eggs, bread etc...</string>
+    <string name="urgencyHint">1-High , 2 Med , 3 Low</string>
+    <string name="formButton">Submit task</string>
+
+
+    <!--Spinner-->
+    <string name="selectOption">Select Urgency</string>
+    <string-array name="SpinnerselectOptions">
+        <item>1 High</item>
+        <item>2 Medium</item>
+        <item>3 Low</item>
+
+    </string-array>
+
+
+
+    <!--DisplayTasksActivity-->
+    <string name="displayTasks">To-Do List</string>
+    <string name="mainViewTasksButton">View Tasks</string>
+
+
+</resources>

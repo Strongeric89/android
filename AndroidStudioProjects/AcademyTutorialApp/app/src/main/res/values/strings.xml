@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Eric Strongs First App</string>
+    <string name="greeting_message">Welcome to the Registration App</string>
+    <string name="prompt">Please enter your name:</string>
+    <string name="mainScreenButtonText">click here</string>
+    <string name="enter_name_hint">eg..Eric Strong</string>
+    <string name="formButton">click to view form</string>
+
+
+    <!--strings for the form-->
+    <string name="name">Name</string>
+    <string name="name_hint">eg...joe blogs</string>
+    <string name="age">Age</string>
+    <string name="age_hint">eg...21</string>
+    <string name="email">Email</string>
+    <string name="email_hint">eg...name@email.com</string>
+    <string name="phone">Phone</string>
+    <string name="phone_hint">eg...085 xxxxxxxxxx</string>
+
+
+    <!--image Grid-->
+    <string name="imageGrid">Click to view grid</string>
+
+</resources>
