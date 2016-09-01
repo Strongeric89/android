@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.eric.ecorp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nameLabel"
+        android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/userName"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameHint"
+            android:inputType="text"
+            android:textStyle="italic"/>
+
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passwordLabel" />
+
+        <EditText
+            android:textSize="20dp"
+            android:id="@+id/userPass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwordHint"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:id="@+id/loginOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submitButton"
+        android:background="@color/yellow"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:textSize="20dp"
+        android:id="@+id/forgotOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotButton"
+        android:background="@color/yellow" />
+
+</LinearLayout>

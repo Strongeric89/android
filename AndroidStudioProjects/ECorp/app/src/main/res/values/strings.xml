@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ECorp Login App</string>
+    <string name="nameLabel">Name:</string>
+    <string name="passwordLabel">Password:</string>
+    <string name="nameHint">eg..john doe</string>
+    <string name="passwordHint">eg..password</string>
+
+    <string name="submitButton">Login</string>
+    <string name="forgotButton">forgot password</string>
+
+</resources>
